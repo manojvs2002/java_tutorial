@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!--	
+			Programming Language::
+			variable = values
+				we can decide the identifier
+				int x or int y
+				Here x and y are not pre-defined
+
+			Mark-up language::
+			attributes = values
+				Attributes are specific to tags
+				align with h3, src with img etc
+				=> they are pre-defined
+				Cannot be changed to ali, gmi
+		-->
+
+		<h3 align="center">Welcome to NMIT</h3>
+		
+
+		<!--
+			Old School Design::
+			<label>First Name</label>
+			<label>Last Name</label>
+		-->
+
+		<form action="twoinputs" method="GET">
+	<!--if method=="get"    http://localhost:8080/twoinputs?fname=zD&lname=szxas -->
+	<!--if method=="post"   http://localhost:8080/twoinputs -->
+		
+			<input type="text" placeholder="Enter your First Name" name="firstname"/>
+			<br>
+
+			<input type="text" placeholder="Enter your Last Name" name="lastname"/>
+			<br>
+
+			<input type="submit"/>
+			<br>
+		</form>
+
+</body>
+</html>
